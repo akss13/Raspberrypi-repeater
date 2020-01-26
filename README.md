@@ -36,12 +36,12 @@ Change the **ssid** and **psk** as per your wifi and save and exit.
 To repeat a **eap/phase 2 authentication wifi**, add the following in the **/etc/wpa_supplicant/wpa_supplicant.conf**
 ```bash
 network={
-	ssid="SRM HOSTELS"
+	ssid="Univ wifi"
 	scan_ssid=1
 	key_mgmt=WPA-EAP
 	eap=PEAP
-	identity="an5179"
-	password="Welcome@123"
+	identity="rollno"
+	password="password"
 	phase1="peaplabel=auto peapver=auto"
 	phase2="auth=MSCHAPV2"
 }
