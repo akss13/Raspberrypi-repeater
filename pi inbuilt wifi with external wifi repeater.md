@@ -109,6 +109,15 @@ Edit **/etc/sysctl.conf**
 ```bash
 sudo nano /etc/sysctl.conf
 ```
+Uncomment this line **#net.ipv4.ip_forward=1**
+```bash
+net.ipv4.ip_forward=1
+```
+Save and exit.
+Edit **/etc/rc.local**
+```bash
+sudo /etc/rc.local 
+```
 Add just above **exit 0**
 ```bash
 iptables -t nat -A  POSTROUTING -o wlan1 -j MASQUERADE
