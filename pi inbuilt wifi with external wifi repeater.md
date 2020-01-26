@@ -114,9 +114,10 @@ Uncomment this line **#net.ipv4.ip_forward=1**
 net.ipv4.ip_forward=1
 ```
 Save and exit.
+
 Edit **/etc/rc.local**
 ```bash
-sudo /etc/rc.local 
+sudo nano /etc/rc.local 
 ```
 Add just above **exit 0**
 ```bash
