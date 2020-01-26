@@ -19,7 +19,7 @@ sudo apt update && sudo apt full-upgrade -y
 ```
 Install usb wifi dongle driver:
 ```bash
-curl -O https://github.com/akss13/Raspberrypi-repeater/blob/master/wifi_dongle_driver.sh
+curl -O https://raw.githubusercontent.com/akss13/Raspberrypi-repeater/master/wifi_dongle_driver.sh
 sudo mv wifi_dongle_driver.sh /usr/bin/install-wifi
 sudo chmod +x /usr/bin/install-wifi
 sudo install-wifi
