@@ -48,4 +48,4 @@ network={
 ```
 Change the **ssid**, **psk** and **identity** as per your wifi and save and exit.
 
-**Note:** Repeating a **eap/phase 2 authentication wifi** wifi is illegal. Please do so at your own risk.
+**Note:** Repeating a **eap/phase 2 authentication wifi** is illegal. Please do so at your own risk.
