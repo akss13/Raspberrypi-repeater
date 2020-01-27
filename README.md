@@ -3,14 +3,14 @@ Raspberrypi-repeater
 ## Instructions to convert Raspberrypi to repeater
 + **To connect Raspberrypi to internet using internal wifi and attach a router for repeating the signal or use ehternet directly with your pc:**
 
-    [Instructions for wifi to ethernet](https://github.com/akss13/Raspberrypi-repeater/blob/master/pi%20to%20ehternet%20repeater.md)
+    [Instructions for wifi to ethernet](https://github.com/akss13/Raspberrypi-repeater/blob/master/wifi%20to%20ethernet.md)
 
 + **To create Raspberrypi AP and use external wifi dongle for connecting to wifi:**
 
-    [Instructions for external dongle wifi dongle to AP](https://github.com/akss13/Raspberrypi-repeater/blob/master/pi%20inbuilt%20wifi%20with%20external%20wifi%20repeater.md)
+    [Instructions for external dongle wifi dongle to AP](https://github.com/akss13/Raspberrypi-repeater/blob/master/external%20dongle%20to%20ap.md)
     
-+ **To create Raspberrypi AP and use ethernet for internet:**
-    [Instructions for ethernet to AP](https://github.com/akss13/Raspberrypi-repeater/blob/master/pi%20inbuilt%20wifi%20with%20external%20wifi%20repeater.md)
++ **To create Raspberrypi AP and use ethernet for internet:**   
+    [Instructions for ethernet to AP](https://github.com/akss13/Raspberrypi-repeater/blob/master/ethernet%20to%20ap.md)
 ---
 [Use the script for installing driver for your wifi dongle](https://github.com/akss13/Raspberrypi-repeater/blob/master/wifi_dongle_driver.sh)
 ```bash
