@@ -1,4 +1,4 @@
-Raspberry pi-inbuilt wifi to external wifi repeater.
+Raspberry pi-inbuilt wifi AP with external wifi dongle.
 ======
 For configuring the system I assume you have installed raspian os with desktop and enabled ssh and/or vnc.
 First update date and time:
