@@ -20,7 +20,7 @@ sudo apt update && sudo apt full-upgrade -y
 ```
 Install dnsmasq.
 ```bash
-sudo apt-get install dnsmasq
+sudo apt-get install dnsmasq -y
 ```
 **Assign eth0 an IP address.** Open:
 ```bash
